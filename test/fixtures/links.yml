@@ -1,0 +1,16 @@
+# == Schema Information
+#
+# Table name: links
+#
+#  id         :integer          not null, primary key
+#  name       :string           not null
+#  href       :string           not null
+#  url_id     :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  name: Click me
+  href: http://google.com
+  url: example

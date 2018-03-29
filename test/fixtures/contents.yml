@@ -1,0 +1,21 @@
+# == Schema Information
+#
+# Table name: contents
+#
+#  id         :integer          not null, primary key
+#  name       :string           not null
+#  text       :string           not null
+#  url_id     :integer          not null
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+h1:
+  name: h1
+  text: Heading 1
+  url: example
+
+h2:
+  name: h1
+  text: Heading 1
+  url: example
