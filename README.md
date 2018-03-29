@@ -14,8 +14,12 @@ Start background jobs
 
 ### Kick start a indexing job
 
-    curl -X POST -H "Content-type: application/vnd.api+json" http://localhost:3000/urls -d '{"data": {"attributes": {"href":"http://akshi.com"}, "type": "urls"} }'
+Start indexing of https://akshi.com
+
+    curl -X POST -H "Content-type: application/vnd.api+json" http://localhost:3000/urls -d '{"data": {"attributes": {"href":"https://akshi.com"}, "type": "urls"} }'
 
 ### Query the indexing of a particular url
 
-    curl -H "Content-type: application/vnd.api+json" http://localhost:3000/urls?filter[href]=http://akshi.com -g
+Search all indexing of https://akshi.com
+
+    curl -H "Content-type: application/vnd.api+json" http://localhost:3000/urls?filter[href]=https://akshi.com -g
