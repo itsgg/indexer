@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple indexer
 
-Things you may want to cover:
+# Dependencies
 
-* Ruby version
+    brew install redis
 
-* System dependencies
+Start background jobs
 
-* Configuration
+    QUEUE=* rake resque:work
 
-* Database creation
+## Test API requests
 
-* Database initialization
+### Kick start a indexing job
 
-* How to run the test suite
+    curl -X POST -H "Content-type: application/vnd.api+json" http://localhost:3000/urls -d '{"data": {"attributes": {"href":"http://akshi.com"}, "type": "urls"} }'
 
-* Services (job queues, cache servers, search engines, etc.)
+### Query the indexing of a particular url
 
-* Deployment instructions
-
-* ...
+    curl -H "Content-type: application/vnd.api+json" http://localhost:3000/urls?filter[href]=http://akshi.com -g

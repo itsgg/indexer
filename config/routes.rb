@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  jsonapi_resources :urls, only: [:index, :create]
+  jsonapi_resources :contents, only: [:show]
+  jsonapi_resources :links, only: [:show]
 end

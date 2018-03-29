@@ -3,10 +3,12 @@
 # Table name: urls
 #
 #  id         :integer          not null, primary key
-#  name       :string           not null
+#  href       :string(255)      not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  status     :integer          default("started"), not null
+#  error      :text(65535)
 #
 
 example:
-  name: http://example.com
+  href: http://example.com

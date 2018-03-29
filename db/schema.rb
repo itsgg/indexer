@@ -10,30 +10,32 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180329082523) do
+ActiveRecord::Schema.define(version: 20180329125833) do
 
-  create_table "contents", force: :cascade do |t|
+  create_table "contents", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "name", null: false
     t.string "text", null: false
-    t.integer "url_id", null: false
+    t.bigint "url_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["url_id"], name: "index_contents_on_url_id"
   end
 
-  create_table "links", force: :cascade do |t|
-    t.string "name", null: false
+  create_table "links", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "name"
     t.string "href", null: false
-    t.integer "url_id"
+    t.bigint "url_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["url_id"], name: "index_links_on_url_id"
   end
 
-  create_table "urls", force: :cascade do |t|
-    t.string "name", null: false
+  create_table "urls", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "href", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "status", default: 0, null: false
+    t.text "error"
   end
 
 end

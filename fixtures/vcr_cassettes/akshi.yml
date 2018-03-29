@@ -1,0 +1,280 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://akshi.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - akshi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"d6a8b03e8932646cdb266a78c805369c"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Runtime:
+      - '0.042530'
+      X-Request-Id:
+      - 1983a03a-eb4e-4cd8-9fac-1bd6767e914e
+      Date:
+      - Thu, 29 Mar 2018 13:06:10 GMT
+      Set-Cookie:
+      - _akshi_session=OEJPd2F1cUdkUys5SjloVjdNYzlvYmxrMUp4ZU55L0lvajdWalBUTVk5UjVhbjVON2VsRCtydEh4Q3Fod1VhMmE2REx1SDJNVVQ3QWVsbnc2elJmRWI0OWNrRG9wSitYaVJQRFdkdmhCS0lMUHRWNDc3NWtjRHc4eWZQOUVFUlJuNG5kWXRhUm82UlFXd1pUVUZLbktnPT0tLXFENmxiQkhiK1VHRHFBMmhVVnJJWGc9PQ%3D%3D--c80508219bfb2ae20d877e09a0b45cea7568a3fd;
+        path=/; HttpOnly
+      X-Powered-By:
+      - Phusion Passenger 5.2.1
+      Server:
+      - nginx/1.12.2 + Phusion Passenger 5.2.1
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n<html>\n  <head>\n    <title>\n      Get the competitive
+        edge | Akshi\n    </title>\n      <meta name=\"description\" content=\"Akshi
+        has the largest question banks for various competitive examinations. Prepare
+        for JEE, NEET, AIIMS, JIPMER\">\n    <meta name=\"csrf-param\" content=\"authenticity_token\"
+        />\n<meta name=\"csrf-token\" content=\"oYUqtGuCuonbreXAcIPZt+w3u8PrDiEkcu7uWIb98xpFvvN+qmxrRFTUt5/5V3qYJGHdTyMI0lETzOrvYT4Yow==\"
+        />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1,
+        shrink-to-fit=no\" />\n    <link rel=\"stylesheet\" media=\"all\" href=\"/assets/application-b8d9d9a643946bc93fcbcda703d565c87ed3817977d2b818f55242f63fdc0996.css\"
+        data-turbolinks-track=\"reload\" />\n    <script src=\"/assets/application-b55fe34e8bff8b0fbe62eab66d9f3809a58c0c8b3810f70faf41f56269e42e8d.js\"
+        data-turbolinks-track=\"reload\"></script>\n    <link rel=\"shortcut icon\"
+        type=\"image/x-icon\" href=\"/assets/favicon-00ce830981a344614fbec487a1bc6e6c2c5c99526a960fe640830f7c490b3334.png\"
+        />\n    <script type=\"text/x-mathjax-config\">\n      MathJax.Hub.Config({\n
+        \       showMathMenu: false,\n        tex2jax: {\n          inlineMath: [
+        ['$','$'], ['\\\\(','\\\\)'] ],\n          processEscapes: true,\n          ignoreClass:
+        'fr-box'\n        }\n      });\n    </script>\n    <script src=\"/mathjax/MathJax.js?config=TeX-AMS_HTML-full.js\"
+        type=\"text/javascript\"></script>\n    <link rel=\"stylesheet\" href=\"https://assets-cdn.ziggeo.com/v1-stable/ziggeo.css\"
+        />\n    <script src=\"https://assets-cdn.ziggeo.com/v1-stable/ziggeo.js\"></script>\n
+        \   <script> ZiggeoApi.token = '5a609d820e2c6f62fd12f8632ab69a3b';</script>\n
+        \   <script> ZiggeoApi.Config.cdn = true;</script>\n    <script> ZiggeoApi.Config.webrtc
+        = true;</script>\n    <link rel=\"stylesheet\" href=\"https://assets-cdn.ziggeo.com/v2-stable/ziggeo.css\"
+        />\n  </head>\n  <body>\n    <div class=\"container\">\n      <nav class=\"navbar
+        navbar-expand-md navbar-dark mt-2\" id=\"top-nav\">\n  <a class=\"navbar-brand\"
+        href=\"/\"><img id=\"logo\" src=\"/assets/logo-d9c363ecb5645796f53d1c99bc1bccdada196e34e92c152670aa041d08ae6885.png\"
+        alt=\"Logo\" /></a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\"\n
+        \         data-target=\"#top-menu\" aria-controls=\"top-menu\"\n          aria-expanded=\"false\"
+        aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n
+        \ </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"top-menu\">\n
+        \   <form class=\"form-inline\" action=\"/packages\" accept-charset=\"UTF-8\"
+        method=\"get\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" />\n
+        \     <input type=\"text\" name=\"q\" id=\"q\" class=\"form-control mr-sm-2\"
+        placeholder=\"Search Packages\" />\n      <input type=\"submit\" name=\"commit\"
+        value=\"Search\" class=\"btn btn-primary\" data-disable-with=\"Search\" />\n</form>
+        \   <ul class=\"navbar-nav ml-auto\">\n      <li class=\"nav-item active\">\n
+        \       <a class=\"nav-link\" href=\"/\">Home</a>\n      </li>\n        <li
+        class=\"nav-item \">\n          <a class=\"nav-link\" href=\"/register\">Register</a>\n
+        \       </li>\n        <li class=\"nav-item \">\n          <a class=\"nav-link\"
+        href=\"/login\">Login</a>\n        </li>\n    </ul>\n  </div>\n</nav>\n\n
+        \     <div class=\"p-4 mb-2\" id=\"content\">\n        \n        <div class=\"row\">\n
+        \ <div class=\"col-sm-8\">\n    <div class=\"page-header\">\n        <h4>Packages</h4>\n
+        \   </div>\n        <div class=\"card mb-4\">\n          <div class=\"card-body\">\n
+        \           <div class=\"card-text\">\n              <img class=\"float-left
+        mr-4\" alt=\"Model Tests\" src=\"/uploads/package/profile/994278445/thumb_ciencia-portada_png\"
+        />\n              <h2 class=\"card-title\">\n                <a href=\"/packages/994278445\">Model
+        Tests</a>\n              </h2>\n              <h5 class=\"subtitle\">IIT -
+        JEE</h5>\n                <span>\n                  <span><a class=\"text-warning
+        rating-star\" title=\"Click to rate\" rel=\"nofollow\" data-method=\"put\"
+        href=\"/packages/994278445/rate?value=1\"><i class=\"fa fa-star fa-2x\"></i></a><a
+        class=\"text-warning rating-star\" title=\"Click to rate\" rel=\"nofollow\"
+        data-method=\"put\" href=\"/packages/994278445/rate?value=2\"><i class=\"fa
+        fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278445/rate?value=3\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278445/rate?value=4\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278445/rate?value=5\"><i
+        class=\"fa fa-star fa-2x\"></i></a></span>\n                </span>\n                <p>\n
+        \                 <span class=\"badge badge-success\">\n                      &#8377;
+        500\n                  </span>\n                </p>\n            </div>\n
+        \         </div>\n        </div>\n        <div class=\"card mb-4\">\n          <div
+        class=\"card-body\">\n            <div class=\"card-text\">\n              <img
+        class=\"float-left mr-4\" alt=\"Maths\" src=\"/uploads/package/profile/994278444/thumb_math_lesson_bg_2018_2_jpg\"
+        />\n              <h2 class=\"card-title\">\n                <a href=\"/packages/994278444\">Maths</a>\n
+        \             </h2>\n              <h5 class=\"subtitle\">IIT - JEE</h5>\n
+        \               <span>\n                  <span><a class=\"text-warning rating-star\"
+        title=\"Click to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278444/rate?value=1\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278444/rate?value=2\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278444/rate?value=3\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278444/rate?value=4\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278444/rate?value=5\"><i
+        class=\"fa fa-star-o fa-2x\"></i></a></span>\n                </span>\n                <p>\n
+        \                 <span class=\"badge badge-success\">\n                      &#8377;
+        1000\n                  </span>\n                </p>\n            </div>\n
+        \         </div>\n        </div>\n        <div class=\"card mb-4\">\n          <div
+        class=\"card-body\">\n            <div class=\"card-text\">\n              <img
+        class=\"float-left mr-4\" alt=\"English\" src=\"/uploads/package/profile/994278443/thumb_course_image_bg_png\"
+        />\n              <h2 class=\"card-title\">\n                <a href=\"/packages/994278443\">English</a>\n
+        \             </h2>\n              <h5 class=\"subtitle\">JIPMER</h5>\n                <span>\n
+        \                 <span><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278443/rate?value=1\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278443/rate?value=2\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278443/rate?value=3\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278443/rate?value=4\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278443/rate?value=5\"><i
+        class=\"fa fa-star-o fa-2x\"></i></a></span>\n                </span>\n                <p>\n
+        \                 <span class=\"badge badge-success\">\n                      &#8377;
+        1000\n                  </span>\n                </p>\n            </div>\n
+        \         </div>\n        </div>\n        <div class=\"card mb-4\">\n          <div
+        class=\"card-body\">\n            <div class=\"card-text\">\n              <img
+        class=\"float-left mr-4\" alt=\"Model Tests\" src=\"/uploads/package/profile/994278442/thumb_Untitled-2_final_jpg\"
+        />\n              <h2 class=\"card-title\">\n                <a href=\"/packages/994278442\">Model
+        Tests</a>\n              </h2>\n              <h5 class=\"subtitle\">JIPMER</h5>\n
+        \               <span>\n                  <span><a class=\"text-warning rating-star\"
+        title=\"Click to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278442/rate?value=1\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278442/rate?value=2\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278442/rate?value=3\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278442/rate?value=4\"><i
+        class=\"fa fa-star-half-full fa-2x\"></i></a><a class=\"text-warning rating-star\"
+        title=\"Click to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278442/rate?value=5\"><i
+        class=\"fa fa-star-o fa-2x\"></i></a></span>\n                </span>\n                <p>\n
+        \                 <span class=\"badge badge-success\">\n                      &#8377;
+        500\n                  </span>\n                </p>\n            </div>\n
+        \         </div>\n        </div>\n        <div class=\"card mb-4\">\n          <div
+        class=\"card-body\">\n            <div class=\"card-text\">\n              <img
+        class=\"float-left mr-4\" alt=\"Zoology\" src=\"/uploads/package/profile/994278440/thumb_zoology_lesson_bg_png\"
+        />\n              <h2 class=\"card-title\">\n                <a href=\"/packages/994278440\">Zoology</a>\n
+        \             </h2>\n              <h5 class=\"subtitle\">NEET/JIPMER/AIIMS</h5>\n
+        \               <span>\n                  <span><a class=\"text-warning rating-star\"
+        title=\"Click to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278440/rate?value=1\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278440/rate?value=2\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278440/rate?value=3\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278440/rate?value=4\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278440/rate?value=5\"><i
+        class=\"fa fa-star-o fa-2x\"></i></a></span>\n                </span>\n                <p>\n
+        \                 <span class=\"badge badge-success\">\n                      &#8377;
+        1000\n                  </span>\n                </p>\n            </div>\n
+        \         </div>\n        </div>\n        <div class=\"card mb-4\">\n          <div
+        class=\"card-body\">\n            <div class=\"card-text\">\n              <img
+        class=\"float-left mr-4\" alt=\"Botany\" src=\"/uploads/package/profile/994278438/thumb_botany_lesson_bg_png\"
+        />\n              <h2 class=\"card-title\">\n                <a href=\"/packages/994278438\">Botany</a>\n
+        \             </h2>\n              <h5 class=\"subtitle\">NEET/JIPMER/AIIMS</h5>\n
+        \               <span>\n                  <span><a class=\"text-warning rating-star\"
+        title=\"Click to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278438/rate?value=1\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278438/rate?value=2\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278438/rate?value=3\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278438/rate?value=4\"><i
+        class=\"fa fa-star-o fa-2x\"></i></a><a class=\"text-warning rating-star\"
+        title=\"Click to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278438/rate?value=5\"><i
+        class=\"fa fa-star-o fa-2x\"></i></a></span>\n                </span>\n                <p>\n
+        \                 <span class=\"badge badge-success\">\n                      &#8377;
+        1000\n                  </span>\n                </p>\n            </div>\n
+        \         </div>\n        </div>\n        <div class=\"card mb-4\">\n          <div
+        class=\"card-body\">\n            <div class=\"card-text\">\n              <img
+        class=\"float-left mr-4\" alt=\"Physics\" src=\"/uploads/package/profile/994278437/thumb_physics_lessonbg_png\"
+        />\n              <h2 class=\"card-title\">\n                <a href=\"/packages/994278437\">Physics</a>\n
+        \             </h2>\n              <h5 class=\"subtitle\">NEET/JIPMER/AIIMS/IIT</h5>\n
+        \               <span>\n                  <span><a class=\"text-warning rating-star\"
+        title=\"Click to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278437/rate?value=1\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278437/rate?value=2\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278437/rate?value=3\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278437/rate?value=4\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278437/rate?value=5\"><i
+        class=\"fa fa-star-o fa-2x\"></i></a></span>\n                </span>\n                <p>\n
+        \                 <span class=\"badge badge-success\">\n                      &#8377;
+        1000\n                  </span>\n                </p>\n            </div>\n
+        \         </div>\n        </div>\n        <div class=\"card mb-4\">\n          <div
+        class=\"card-body\">\n            <div class=\"card-text\">\n              <img
+        class=\"float-left mr-4\" alt=\"Chemistry\" src=\"/uploads/package/profile/994278436/thumb_chem_lesson_bg_png\"
+        />\n              <h2 class=\"card-title\">\n                <a href=\"/packages/994278436\">Chemistry</a>\n
+        \             </h2>\n              <h5 class=\"subtitle\">NEET/JIPMER/AIIMS/IIT</h5>\n
+        \               <span>\n                  <span><a class=\"text-warning rating-star\"
+        title=\"Click to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278436/rate?value=1\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278436/rate?value=2\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278436/rate?value=3\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278436/rate?value=4\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278436/rate?value=5\"><i
+        class=\"fa fa-star-o fa-2x\"></i></a></span>\n                </span>\n                <p>\n
+        \                 <span class=\"badge badge-success\">\n                      &#8377;
+        1000\n                  </span>\n                </p>\n            </div>\n
+        \         </div>\n        </div>\n        <div class=\"card mb-4\">\n          <div
+        class=\"card-body\">\n            <div class=\"card-text\">\n              <img
+        class=\"float-left mr-4\" alt=\"Model Tests\" src=\"/uploads/package/profile/994278435/thumb_neet.png\"
+        />\n              <h2 class=\"card-title\">\n                <a href=\"/packages/994278435\">Model
+        Tests</a>\n              </h2>\n              <h5 class=\"subtitle\">NEET</h5>\n
+        \               <span>\n                  <span><a class=\"text-warning rating-star\"
+        title=\"Click to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278435/rate?value=1\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278435/rate?value=2\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278435/rate?value=3\"><i
+        class=\"fa fa-star fa-2x\"></i></a><a class=\"text-warning rating-star\" title=\"Click
+        to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278435/rate?value=4\"><i
+        class=\"fa fa-star-half-full fa-2x\"></i></a><a class=\"text-warning rating-star\"
+        title=\"Click to rate\" rel=\"nofollow\" data-method=\"put\" href=\"/packages/994278435/rate?value=5\"><i
+        class=\"fa fa-star-o fa-2x\"></i></a></span>\n                </span>\n                <p>\n
+        \                 <span class=\"badge badge-success\">\n                      &#8377;
+        500\n                  </span>\n                </p>\n            </div>\n
+        \         </div>\n        </div>\n      <div class=\"float-right\">\n        \n
+        \     </div>\n  </div>\n  <div class=\"col-sm-4\">\n    <div class=\"page-header\">\n
+        \     <h4>Tour</h4>\n    </div>\n    <iframe width=\"330\" height=\"185\"
+        src=\"https://www.youtube.com/embed/bt9tt_m0hhU\" frameborder=\"0\" allow=\"autoplay;
+        encrypted-media\" allowfullscreen>\n    </iframe>\n    <div class=\"page-header\">\n
+        \     <h4>Blog</h4>\n    </div>\n    <ul class=\"list-group\">\n        <li
+        class=\"list-group-item\">\n          <a href=\"/posts/980190966\">All courses
+        will be available from 19th march 2018</a>\n        </li>\n        <li class=\"list-group-item\">\n
+        \         <a href=\"/posts/980190965\">Inaugural</a>\n        </li>\n    </ul>\n
+        \   <hr />\n    <div class=\"page-header\">\n      <h4>Upcoming Classes</h4>\n
+        \   </div>\n    <ul class=\"list-group\">\n      <div class=\"col-12 alert
+        alert-warning\" role=\"alert\">\n        No upcoming classes\n      </div>\n
+        \   </ul>\n  </div>\n</div>\n\n        <div class=\"clearfix\"></div>\n      </div>\n
+        \     <footer class=\"footer\">\n  <div class=\"container\">\n    <span class=\"float-right\">\n
+        \     <a href=\"/\">Home</a> /\n      <a href=\"/blog\">Blog</a> /\n      <a
+        href=\"/about\">About</a> /\n      <a href=\"/privacy\">Privacy Policy</a>
+        /\n      <a href=\"/terms\">Terms &amp; Conditions</a>\n    </span>\n  </div>\n</footer>\n\n
+        \   </div>\n      <script src=\"https://www.googletagmanager.com/gtag/js?id=UA-35080854-1\"></script>\n
+        \     <script>\n        window.dataLayer = window.dataLayer || [];\n        function
+        gtag() {\n          dataLayer.push(arguments);\n        }\n        gtag('js',
+        new Date());\n      </script>\n  </body>\n</html>\n"
+    http_version: 
+  recorded_at: Thu, 29 Mar 2018 13:06:20 GMT
+recorded_with: VCR 4.0.0
