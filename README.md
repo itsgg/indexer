@@ -10,6 +10,10 @@ Start background jobs
 
     QUEUE=* rake resque:work
 
+## Run unit tests
+
+    rake test
+
 ## Test API requests
 
 ### Kick start a indexing job
